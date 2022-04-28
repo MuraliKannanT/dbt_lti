@@ -23,11 +23,6 @@ models:
           - unique
           - not_null
       - name: name
-        tests:   
-          - accepted_values:
-              values: ['ASIA','AFRICA','AMERICA']
-              config:
-                store_failures: true
   - name: stg_orders
     description: Details about the orders placed
     columns:

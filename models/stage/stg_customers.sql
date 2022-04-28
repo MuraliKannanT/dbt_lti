@@ -19,3 +19,6 @@ from {{ source('src', 'customers') }}
 )
 
 select * from customer
+
+
+
