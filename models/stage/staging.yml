@@ -9,6 +9,7 @@ models:
         tests:
           - unique
           - not_null
+          - no_empty
       - name: region_id
         tests:
           - not_null
