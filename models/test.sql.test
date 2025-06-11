@@ -7,4 +7,4 @@
 }}
 
 
-select * from {{ source('src', 'nations') }}
+select * from {{ source('src', 'nation') }}
