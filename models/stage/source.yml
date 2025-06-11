@@ -2,8 +2,8 @@ version: 2
 
 sources:
   - name: src
-    database: mkmart-src
-    schema: sourcedb
+    database: sourcedb
+    schema: mk_mall
     tables:
       - name: customers
       - name: nations
