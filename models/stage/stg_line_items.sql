@@ -2,7 +2,7 @@
 
 with source as (
 
-    select * from {{ source('src', 'lineitems') }}
+    select * from {{ source('src', 'lineitem') }}
 
 ),
 

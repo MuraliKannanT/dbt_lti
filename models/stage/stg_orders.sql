@@ -8,7 +8,7 @@ changed as (
 
     select
 
-        -- ids
+        -- ids all
         o_orderkey as order_id,
         o_custkey as customer_id,
         
