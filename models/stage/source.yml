@@ -13,7 +13,8 @@ sources:
       - name: partsupps
       - name: lineitems
       - name: orders
+        config:
+          freshness:
+            warn_after: {count: 1, period: day}
+            error_after: {count: 0, period: day}
         loaded_at_field: cast(o_orderdate as timestamp)
-        freshness:
-          warn_after: {count: 1, period: day}
-          error_after: {count: 0, period: day}
