@@ -2,16 +2,16 @@ version: 2
 
 sources:
   - name: src
-    database: sf_sample
-    schema: public
+    database: sourcedb
+    schema: mk_mall
     tables:
-      - name: customer
-      - name: nation
-      - name: region
+      - name: customers
+      - name: nations
+      - name: regions
       - name: parts
       - name: suppliers
-      - name: partsupp
-      - name: lineitem
+      - name: partsupps
+      - name: lineitems
       - name: orders
         config:
           freshness:
